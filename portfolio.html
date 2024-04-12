@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First-Portfolio-Website</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/e595762371.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Piyush's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#firstsection">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is
+          <span class="purple">Piyush</span>
+          <div>and I am a Passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="image/devloper.png" alt="" />
+        </div>
+      </section>
+      <p class="aboutme">Scroll Down to More Information.</p>
+      <hr />
+
+      <!-- ---------ABOUT----------- -->
+      <section class="secondsection">
+        <div id="about">
+          <div class="container">
+            <div class="row">
+              <div class="about-col-1">
+                <img src="image/IMG_3381.jpg" />
+              </div>
+              <div class="about-col-2">
+                <h1 class="subtitle" id="aboutme">About Me</h1>
+                <p>
+                  I have always been interested in web development, and I have
+                  the necessary skills required for the role. I have a good
+                  understanding of HTML, CSS, React.JS, and Pythan. I am
+                  currently improving my Web development skills by learning
+                  various new technologies.
+                </p>
+                <div class="tab-title">
+                  <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('experience')">
+                    Experience
+                  </p>
+                  <p class="tab-links" onclick="opentab('education')">
+                    Education
+                  </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li>
+                      <span>Web Devlopment</span> <br />I have always been
+                      interested in web development, and I have the necessary
+                      skills required for the role. I have a good understanding
+                      of HTML, CSS, React.JS, and Pythan. I am currently
+                      improving my Web development skills by learning various
+                      new technologies.
+                    </li>
+                    <li>
+                      <span>Graphic Designer</span><br />I'm a graphic designer,
+                      and I know how to create the perfect logo, brand identity,
+                      or website and I have a proven track record of success.
+                      Expertise: I have extensive experience designing logos,
+                      branding campaigns, websites, and more. In fact, I've
+                      designed over 1000 logos!
+                    </li>
+                    <li>
+                      <span>Digital Marketing</span><br />I am dedicated to
+                      constantly improving my craft. I have a Bachelor of
+                      Commerce and a Certificate in Digital Media and Marketing.
+                      I admire XYZ Company’s emphasis on teamwork and
+                      collaboration—two things that I also highly value. As the
+                      Digital Marketing Manager for XYZ Company, I will work
+                      with clients and colleagues to develop innovative
+                      marketing ideas.
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                  <p>
+                    It sounds like you're emphasizing your experience as a
+                    freelancer, where you've successfully completed projects and
+                    received positive feedback from clients. While you may not
+                    have a traditional professional background or corporate
+                    experience, your freelance work demonstrates your skills,
+                    dedication, and ability to deliver results. Here's a refined
+                    version of your statement: "I may not have a conventional
+                    professional background or corporate experience, but I've
+                    successfully undertaken various freelance projects. I've
+                    received positive feedback and appreciation from clients for
+                    my work, and I have built lasting relationships with them. I
+                    am committed to pursuing my goals independently and ensuring
+                    that my work is always of the highest quality. You can trust
+                    that I will devote myself wholeheartedly to any task, and I
+                    am determined to leave you without any regrets."
+                  </p>
+                </div>
+                <div class="tab-contents" id="education">
+                  <ul>
+                   <p>I complete my high schooling in the year 2023 from holy angel school which is under the CBSE board.I attempted to achive 80% in my 12th boards after i joined a 1 year PHP advanced course which is know completed Currently I am in 1st year of undergraduated studies of BCA at ARYA P.G College which is  affilitated to Kureshetra University </p> 
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------SERVICE----------->
+
+        <div id="services">
+          <div class="container">
+            <h1 class="sub-title" id="aboutme">MY Services</h1>
+            <div class="service-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Devlopment</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Labore aliquid deleniti commodi aut eveniet, nihil adipisci
+                  eum omnis cupiditate rerum.
+                </p>
+                <a href="#">Learn More</a>
+              </div>
+              <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Graphic Designer</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Labore aliquid deleniti commodi aut eveniet, nihil adipisci
+                  eum omnis cupiditate rerum.
+                </p>
+                <a href="#">Learn More</a>
+              </div>
+              <div>
+                <i class="fa-solid fa-money-bill-trend-up"></i>
+                <h2>Digital Marketing</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Labore aliquid deleniti commodi aut eveniet, nihil adipisci
+                  eum omnis cupiditate rerum.
+                </p>
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----portfolio--- -->
+        <div id="portfolio">
+          <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+              <div class="work">
+                <img src="image/work-1.png" alt="" />
+                <div class="layer">
+                  <h3>Social Media App</h3>
+                  <p>The app connects you the talented people around the world,
+                    Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="image/work-2.png" alt="" />
+                <div class="layer">
+                  <h3>Music Website</h3>
+                  <p>This website connects you the talented people around the world,
+                    Download it from play store</p>
+                    <a href="spotifyclone2.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="image/work-3.png" alt="" />
+                <div class="layer">
+                  <h3>Online shopping Wesite<h3>
+                  <p>This website connects you the talented people around the world,
+                    Download it from play store</p>
+                    <a href="amazon clone.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+            <a href="/" class="btn">See More</a>
+          </div>
+        </div>
+
+        <!-- ---------contact------>
+        <div id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> piyushkamra20@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8221872201</p>
+                <div class="social-icons">
+                  <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+              </div>
+              <div class="contact-right">
+                <form>
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="text" name="email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>Copyright @Piyush.<i class="fa-solid fa-heart"></i> My Portfolio Website</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="portfolio.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Devloper", "Graphic Designer", "Digital Marketing"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
